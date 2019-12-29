@@ -1,6 +1,6 @@
 {
   "name": "node-red-mongo-storage-plugin",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Node Red Mongo Storage Plugin",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:freefoote/node-red-flows-mongo.git"
+    "url": "adibenmati/node-red-mongo-storage-plugin.git"
   },
   "keywords": [
     "node-red",
@@ -17,9 +17,9 @@
   "author": "Adi Ben Matitiau",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/freefoote/node-red-flows-mongo/issues"
+    "url": "https://github.com/adibenmati/node-red-mongo-storage-plugin/issues"
   },
-  "homepage": "https://github.com/freefoote/node-red-flows-mongo",
+  "homepage": "https://github.com/adibenmati/node-red-mongo-storage-plugin",
   "dependencies": {
     "mongodb": "^3.4.1",    
     "when": "^3.7.3"
