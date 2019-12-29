@@ -13,7 +13,8 @@ For this one, you'll need a separate script to start your Node Red,
 as per the guide for running a custom Node-Red inside your process:
 
 http://nodered.org/docs/embedding.html
-You can also check my example node-red-app in the github repository : https://github.com/adibenmati/node-red-mongo-storage-plugin/blob/master/examples/node-red-app.js
+
+You can also check my example node-red-app in the github repository: [node red quickstart with node-red-mongo-storage-plugin](https://github.com/adibenmati/node-red-mongo-storage-plugin/blob/master/examples/node-red-app.js)
 
 
 Firstly, require the module:
