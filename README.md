@@ -43,7 +43,7 @@ credit to: freefoote for creating the npm package node-red-flows-mongo which hel
 
 
 
-Getting Started
+TODO
 -----
 1.Add tests
 2.Create an abstraction over mongoHandler for reusing with different types of databases.
