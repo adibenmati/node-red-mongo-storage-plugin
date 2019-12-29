@@ -37,7 +37,7 @@ var settings = {
 };
 ```
 
-Your `sotrageModuleOptions` could also be injected with env variables
+Your `storageModuleOptions` could also be injected with env variables
 
 credit to: freefoote for creating the npm package node-red-flows-mongo which help me made this one.
 

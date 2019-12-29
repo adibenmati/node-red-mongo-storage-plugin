@@ -1,6 +1,6 @@
 {
   "name": "node-red-mongo-storage-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node Red Mongo Storage Plugin",
   "main": "index.js",
   "scripts": {
