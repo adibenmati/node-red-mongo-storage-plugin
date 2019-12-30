@@ -29,7 +29,13 @@ var settings = {
     storageModule : require("node-red-mongo-storage-plugin"),
     storageModuleOptions: {
         mongoUrl: 'mongodb://localhost:27017',
-        database: 'local'
+        database: 'local',
+        collectionNames:{
+            flows: "nodered-flows",
+            credentials: "nodered-credentials",
+            settings: "nodered-settings",
+            sessions: "nodered-sessions"
+        }
     }, 
     functionGlobalContext: { }    // enables global context
 };

@@ -29,9 +29,19 @@ Then, in your settings, add:
 var settings = {
 	...
     storageModule : require("node-red-mongo-storage-plugin"),
-    storageModuleOptions: {
+    storageModuleOptions: {        
         mongoUrl: 'mongodb://localhost:27017',
-        database: 'local'
+        //also possible
+        //mongoUrl: 'PROCESS.ENV.MONGOURL',
+        database: 'local',
+        //optional
+        //set the collection name that the module would be using
+        collectionNames:{
+            flows: "nodered-flows",
+            credentials: "nodered-credentials",
+            settings: "nodered-settings",
+            sessions: "nodered-sessions"
+        }
     },
 	...
 };
